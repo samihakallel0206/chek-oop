@@ -1,7 +1,7 @@
 //class handler of Cart
 class Cart {
   constructor() {
-    this.cpt = 3;
+    this.cpt = 3; //inititailisation
     this.plusButtons = Array.from(document.querySelectorAll(".fa-plus-circle"));
     this.minusButtons = Array.from(
       document.getElementsByClassName("fa-minus-circle")
@@ -82,4 +82,3 @@ class Cart {
 
 // Instantiate the ShoppingCart class
 const cart = new Cart();
-
